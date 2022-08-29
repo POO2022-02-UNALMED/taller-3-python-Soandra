@@ -92,8 +92,7 @@ class TV:
 
 class Control:
 
-    def __init__(self, tv):
-        self._tv = tv
+    _tv = TV
 
     def turnOn(self):
         self._tv.tv.turnOn()
