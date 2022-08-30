@@ -57,11 +57,11 @@ class TV:
 
     @classmethod
     def getNumTV(cls):
-        return cls._numTV
+        return cls.numTV
 
     @classmethod
     def setNumTV(cls, num_tv):
-        cls._numTV = num_tv
+        cls.numTV = num_tv
 
     
     def canalUp(self):
